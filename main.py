@@ -21,8 +21,10 @@ import time
 st.set_page_config(page_title = 'Web bán hàng', layout='wide')
 st.title('QUẢN LÝ BÁN HÀNG', text_alignment = 'center')
 
-path_csv = r'E:\Cyber_soft\BTVN\Buoi_12\Project_Retail_Manage\don_hang.csv'
-path_csv_test = r'E:\Cyber_soft\BTVN\Buoi_12\Project_Retail_Manage\don_hang_test.csv'
+# path_csv = r'E:\Cyber_soft\BTVN\Buoi_12\Project_Retail_Manage\don_hang.csv'
+# path_csv_test = r'E:\Cyber_soft\BTVN\Buoi_12\Project_Retail_Manage\don_hang_test.csv'
+path_csv = 'don_hang.csv'
+path_csv_test = 'don_hang_test.csv'
 df = data_source(path_csv)
 df_test = data_source(path_csv_test)
 
